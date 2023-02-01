@@ -4,7 +4,9 @@ Projet en VueJS en dehors des cours;
 Hub de jeu
 
 -CapyMemory
+
 -Capybafart
+
 -CapySimon
 -CapyPendu
 -CapyCodeName
