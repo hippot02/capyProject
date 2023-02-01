@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/capybara-mainPage.jpg">
+  <HelloWorld msg="Bienvenue sur le site CapybaGames"/>
 </template>
 
 <script>
