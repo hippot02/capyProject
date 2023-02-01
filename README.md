@@ -8,9 +8,15 @@ Hub de jeu
 -Capybafart
 
 -CapySimon
+
 -CapyPendu
+
 -CapyCodeName
+
 -CapyxelGuess
+
 -CapyClicker
+
 -Capy2048
- On verra pour d'autres
+
+On verra pour d'autres
