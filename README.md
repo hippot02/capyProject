@@ -1,6 +1,6 @@
 # capyProject
 
-Projet en VueJS en dehors des cours;
+Projet en Js en dehors des cours;
 Hub de jeu
 
 -CapyMemory
