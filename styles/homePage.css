@@ -1,44 +1,60 @@
 /* Image + title */
-.welcomeDiv{
+.welcomeDiv {
     display: grid;
     justify-content: center;
     justify-items: center;
 }
+.welcomeDiv img{
+    margin: 30px;
+    width:  600px;
+    height: 500px;
+}
+
 /* Navigation bar */
+
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 1px 8px #ddd;
+    font-family: Hack, monospace;
 }
-nav img{
-    background-image: "../public/images/capyDeFace.jpg";
+nav img {
+    align-self: center;
     width: 50px;
     height: 50px;
 }
-nav li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-
-    
-}
-nav a{
-    padding: 14px 16px;
-    padding: auto;
+li a {
+    align-self: flex-end;
     text-decoration: none;
-    transition: all 0.3s ease 0s;
-    background-color: #555;
-    color: #999;
+    color: #8f8f8f;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px
+
+
 }
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
 nav a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(34, 30, 30);
+    background: #a8a8a8;
 }
-nav li.active a{
+
+nav li.active a {
     color: red;
 }
 
 
-.games{
+.games {
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
@@ -49,35 +65,40 @@ nav li.active a{
     margin: 30px auto;
     padding-bottom: 5%;
 }
+
 /* Card for games */
-.gameCard{
+.gameCard {
     display: flex;
     border: 1px solid #333;
     flex-direction: column;
     width: 300px;
     height: 300px;
-    background-color: rgba(136, 79, 32, 0.164);
+    background-color: #FFDAB9;
 }
-.gameCard img{
+
+.gameCard img {
     width: 300px;
     border-radius: 15%;
     box-shadow: 5px 3px 1px #333;
 }
-.gameCard h4{
+
+.gameCard h4 {
     text-align: center;
     font-style: arial;
     font-size: large;
     margin: 18px;
 }
-.gameCard a{ /* Play Button */
+
+.gameCard a {
+    /* Play Button */
     border: 1px solid #333;
-	border-radius: calc(3px + 2px + 1px);
+    border-radius: calc(3px + 2px + 1px);
     text-align: center;
     font-size: large;
     font-family: sans-serif;
     background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
     width: 80px;
     margin-right: 10px;
     align-self: flex-end;
