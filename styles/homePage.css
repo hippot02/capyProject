@@ -1,31 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /* Image + title */
+
 .welcomeDiv {
     display: grid;
     justify-content: center;
     justify-items: center;
 }
-.welcomeDiv img{
+
+.welcomeDiv img {
+    border-radius: 40%;
+    box-shadow: 3px 3px 3px rgb(112, 112, 112);
     margin: 30px;
-    width:  600px;
+    width: 600px;
     height: 500px;
 }
 
+
 /* Navigation bar */
 
-nav{
+nav {
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 1px 8px #ddd;
-    font-family: Hack, monospace;
+    box-shadow: 0 2px 8px rgb(161, 161, 161);
 }
-nav img {
-    align-self: center;
-    width: 50px;
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
 }
-li a {
-    align-self: flex-end;
+
+nav img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.widget {
     text-decoration: none;
     color: #8f8f8f;
     font-size: 20px;
@@ -33,40 +53,32 @@ li a {
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;
     margin-top: 20px;
-    padding: 20px 50px 20px 50px
-
-
+    padding: 15px 30px 15px 30px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-}
-
-
-nav a:hover {
+nav .widget:hover {
     color: rgb(34, 30, 30);
     background: #a8a8a8;
 }
 
-nav li.active a {
-    color: red;
-}
 
+/* Grid for cards */
 
 .games {
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
     max-width: 1300px;
-    width: 80%;
+    width: 90%;
     height: auto;
     gap: 2%;
     margin: 30px auto;
     padding-bottom: 5%;
 }
 
+
 /* Card for games */
+
 .gameCard {
     display: flex;
     border: 1px solid #333;
@@ -79,7 +91,7 @@ nav li.active a {
 .gameCard img {
     width: 300px;
     border-radius: 15%;
-    box-shadow: 5px 3px 1px #333;
+    box-shadow: 2px 2px 1px rgb(255, 200, 200);
 }
 
 .gameCard h4 {
@@ -102,5 +114,5 @@ nav li.active a {
     width: 80px;
     margin-right: 10px;
     align-self: flex-end;
-    box-shadow: 5px 3px 3px #333;
+    box-shadow: 3px 3px 3px rgb(110, 110, 110);
 }
