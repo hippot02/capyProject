@@ -6,30 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../styles/MemoCapy.css" />
-    <script src="../scripts/MemoCapy.js" defer></script>
+    <link rel="stylesheet" href="../styles/navBar.css" />
+
     <title>MémoCapy</title>
+
+    <nav class="nav">
+        <ul>
+            <li><a class="widget" href="../pages/homePage.html">Accueil</a></li>
+            <li><a class="widget" href="../pages/homePage.html#games">Jeux</a></li>
+            <li><a href="#"><img src="../public/images/capyCostard.jpg"></a></li>
+            <li><a class="widget" href="#">A propos</a></li>
+            <li><a class="widget" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="spaceDiv"></div>
 </head>
 
 <body>
     <div class="game">
-        <div class="board" data-dimension="4">
-            <div class="card">
-                <div class="card-front"></div>
-                <div class="card-back">${item}</div>
+        <section class="board" >
+            <div class="memory-card" data-capy="capyChad">
+                <img class="front-face" src="../public/images/capyChad.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
             </div>
-        </div>
-        <div class="controls">
-            <button>Start</button>
-            <div class="stats">
-                <div class="moves">0 moves</div>
-                <div class="timer">time: 0 sec</div>
+            <div class="memory-card" data-capy="capyChad">
+                <img class="front-face" src="../public/images/capyChad.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
             </div>
-        </div>
-        <div class="board-container">
-            <div class="board" data-dimension="4"></div>
-            <div class="win">You won!</div>
-        </div>
+            <div class="memory-card" data-capy="capyDonut">
+                <img class="front-face" src="../public/images/capyDonut.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyDonut">
+                <img class="front-face" src="../public/images/capyDonut.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyGiraffe">
+                <img class="front-face" src="../public/images/capyGiraffe.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyGiraffe">
+                <img class="front-face" src="../public/images/capyGiraffe.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyPumkin">
+                <img class="front-face" src="../public/images/capyPumkin.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyPumkin">
+                <img class="front-face" src="../public/images/capyPumkin.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyOrange">
+                <img class="front-face" src="../public/images/capyOrange.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyOrange">
+                <img class="front-face" src="../public/images/capyOrange.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyHug">
+                <img class="front-face" src="../public/images/capyHug.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+            <div class="memory-card" data-capy="capyHug">
+                <img class="front-face" src="../public/images/capyHug.jpg" draggable="false" alt="capyDeFace">
+                <img class="back-face" src="../public/images/capyCostard.jpg" draggable="false" alt="Memory Card">
+            </div>
+
+
+        </section>
     </div>
+
+    <script src="../scripts/MemoCapy.js" defer></script>
 </body>
 
 </html>

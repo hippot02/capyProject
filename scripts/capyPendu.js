@@ -14,6 +14,9 @@ const mots = [
   "capychasuble",
   "capystock",
   "capyrotofil",
+  "capyrotechnicien",
+  "capytaine",
+  "capylaire",
 ];
 
 //random mot
