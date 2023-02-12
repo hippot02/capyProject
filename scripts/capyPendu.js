@@ -72,7 +72,8 @@ function updateWrongLetterEl() {
   //check loose
 
   if (wrongLetterArr.length === corpsePart.length) {
-    msgFinal.innerText = "T' as perdu gros naze !";
+    msgFinal.innerText =
+      "T' as perdu gros naze ! \n Le mot était " + motSelectionne;
     popup.style.display = "flex";
   }
 
