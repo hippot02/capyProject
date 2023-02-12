@@ -48,7 +48,7 @@ h1{
 }
 
 .corpse-parts{
-    
+    display: none;
 }
 
 .wrong-letter-container{
