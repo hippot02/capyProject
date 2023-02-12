@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+nav *{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgb(161, 161, 161);
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav img:active {
+    transform: scale(0.95);
+    transition: transform .2s;
+}
+
+.widget {
+    text-decoration: none;
+    color: #8f8f8f;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+}
+
+nav .widget:hover {
+    color: rgb(34, 30, 30);
+    background: #a8a8a8;
+}
+nav .widget:active {
+    background-color: #525252;
+  }
+
+/* Add a little space behind de navbar so the main content appears below */
+#spaceDiv{
+    height: 80px;
+}

@@ -5,7 +5,6 @@
 
 
 /* Image + title */
-
 .welcomeDiv {
     display: grid;
     justify-content: center;
@@ -18,47 +17,6 @@
     margin: 30px;
     width: 600px;
     height: 500px;
-}
-
-
-/* Navigation bar */
-
-nav {
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgb(161, 161, 161);
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-}
-
-nav img {
-    width: 50px;
-    height: 50px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.widget {
-    text-decoration: none;
-    color: #8f8f8f;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all 0.5s ease-in-out;
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding: 15px 30px 15px 30px;
-}
-
-nav .widget:hover {
-    color: rgb(34, 30, 30);
-    background: #a8a8a8;
 }
 
 
@@ -116,3 +74,8 @@ nav .widget:hover {
     align-self: flex-end;
     box-shadow: 3px 3px 3px rgb(110, 110, 110);
 }
+
+.gameCard a:active {
+    transform: scale(0.90);
+    transition: transform .2s;
+  }
